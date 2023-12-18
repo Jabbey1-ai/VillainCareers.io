@@ -24,8 +24,9 @@ header {
 
 header img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    max-width: 100px; /* Set max-width for responsiveness */
+    width: 100%;
+    height: auto;
 }
 
 header h1, header p {
