@@ -24,9 +24,9 @@ header {
 
 header img {
     border-radius: 50%;
-    max-width: 100px; /* Set max-width for responsiveness */
-    width: 100%;
-    height: auto;
+    width: 150px; /* Fixed width for the profile picture */
+    height: 150px; /* Fixed height for the profile picture */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
 header h1, header p {
